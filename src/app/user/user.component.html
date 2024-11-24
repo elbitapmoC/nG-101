@@ -1,0 +1,21 @@
+<p>
+  <strong
+    ><em>{{ name }}</em></strong
+  >, enjoys his {{ food }}
+</p>
+<br />
+<p>You can't go wrong with {{ drink }} for breakfast</p>
+<div>
+  <!-- <h1>{{ title }}</h1> -->
+  <img [src]="imageURL" alt="Random Image" width="250" height="250" />
+  <button (click)="refreshImage()">Refresh Image</button>
+</div>
+
+<aside (mouseover)="onMouseOver()">
+  <app-user
+    name="elbitapmoC"
+    drink="🍵 Matcha"
+    food="🍞 Sourdough"
+    (drinks)="onClick()"
+  ></app-user>
+</aside>

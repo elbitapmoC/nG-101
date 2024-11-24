@@ -1,0 +1,15 @@
+aside {
+  margin-top: 1rem;
+  display: flex;
+  background-color: antiquewhite;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  & app-user {
+    margin: 1rem;
+  }
+}
+
+div {
+  display: flex;
+}
